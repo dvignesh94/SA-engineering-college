@@ -1,0 +1,163 @@
+{
+  "comfyui": {
+    "certificates": {
+      "Certificate.jpeg": {
+        "path": "/Users/vignesh/Documents/GitHub/Generative_ai/Datasets/certificates/Certificate.jpeg",
+        "metadata": {},
+        "registered_at": "/Users/vignesh/Documents/GitHub/Generative_ai"
+      },
+      "Certificate_with_name.jpeg": {
+        "path": "/Users/vignesh/Documents/GitHub/Generative_ai/Datasets/certificates/Certificate_with_name.jpeg",
+        "metadata": {},
+        "registered_at": "/Users/vignesh/Documents/GitHub/Generative_ai"
+      },
+      "Certificate_with_name1.jpeg": {
+        "path": "/Users/vignesh/Documents/GitHub/Generative_ai/Datasets/certificates/Certificate_with_name1.jpeg",
+        "metadata": {
+          "name": "Vignesh Dhanasekaran",
+          "position": [
+            200,
+            620
+          ],
+          "font_size": 50
+        },
+        "registered_at": "/Users/vignesh/Documents/GitHub/Generative_ai/ComfyUI/certificate_text_overlay"
+      }
+    },
+    "outputs": {
+      "comfyui_generated_20250907_200004_12a2470e-12d5-492e-b0f4-fa6cbfab9110_0.png": {
+        "path": "/Users/vignesh/Documents/GitHub/Generative_ai/Datasets/comfyui_outputs/comfyui_generated_20250907_200004_12a2470e-12d5-492e-b0f4-fa6cbfab9110_0.png",
+        "metadata": {
+          "generation_id": "12a2470e-12d5-492e-b0f4-fa6cbfab9110",
+          "image_index": 0,
+          "prompt": "A beautiful landscape with mountains and a lake",
+          "negative_prompt": "blurry, low quality, distorted",
+          "width": 768,
+          "height": 768,
+          "steps": 25,
+          "cfg_scale": 7.0,
+          "seed": null,
+          "sampler": "euler",
+          "model": "v1-5-pruned-emaonly-fp16.safetensors",
+          "created_at": 1757289603.2587368,
+          "completed_at": 1757289604.309448,
+          "status": "completed"
+        },
+        "registered_at": "/Users/vignesh/Documents/GitHub/Generative_ai/ComfyUI/image_generator"
+      },
+      "comfyui_generated_20250907_200521_7ea2a489-349f-47c4-8626-293bab87ded4_0.png": {
+        "path": "/Users/vignesh/Documents/GitHub/Generative_ai/Datasets/comfyui_outputs/comfyui_generated_20250907_200521_7ea2a489-349f-47c4-8626-293bab87ded4_0.png",
+        "metadata": {
+          "generation_id": "7ea2a489-349f-47c4-8626-293bab87ded4",
+          "image_index": 0,
+          "prompt": "beautiful house with night sky background",
+          "negative_prompt": "blurry, low quality, distorted",
+          "width": 512,
+          "height": 512,
+          "steps": 20,
+          "cfg_scale": 7.0,
+          "seed": null,
+          "sampler": "euler",
+          "model": "v1-5-pruned-emaonly-fp16.safetensors",
+          "created_at": 1757289836.628795,
+          "completed_at": 1757289921.989582,
+          "status": "completed"
+        },
+        "registered_at": "/Users/vignesh/Documents/GitHub/Generative_ai/ComfyUI/image_generator"
+      },
+      "comfyui_generated_20250907_200725_8c27d78f-d0d0-421e-a72b-5ca5da44cd25_0.png": {
+        "path": "/Users/vignesh/Documents/GitHub/Generative_ai/Datasets/comfyui_outputs/comfyui_generated_20250907_200725_8c27d78f-d0d0-421e-a72b-5ca5da44cd25_0.png",
+        "metadata": {
+          "generation_id": "8c27d78f-d0d0-421e-a72b-5ca5da44cd25",
+          "image_index": 0,
+          "prompt": "beautiful girl with big-breast naked on beach",
+          "negative_prompt": "blurry, low quality, distorted",
+          "width": 512,
+          "height": 512,
+          "steps": 20,
+          "cfg_scale": 7.0,
+          "seed": null,
+          "sampler": "euler",
+          "model": "v1-5-pruned-emaonly-fp16.safetensors",
+          "created_at": 1757289967.884351,
+          "completed_at": 1757290045.964771,
+          "status": "completed"
+        },
+        "registered_at": "/Users/vignesh/Documents/GitHub/Generative_ai/ComfyUI/image_generator"
+      }
+    }
+  },
+  "safety_chatbot": {
+    "datasets": {
+      "Industrial_safety_and_health_database_with_accidents_description.csv": {
+        "path": "/Users/vignesh/Documents/GitHub/Generative_ai/Datasets/safety_chatbot/Industrial_safety_and_health_database_with_accidents_description.csv",
+        "metadata": {},
+        "registered_at": "/Users/vignesh/Documents/GitHub/Generative_ai"
+      }
+    },
+    "embeddings": {
+      "safety_incident_embeddings.npy": {
+        "path": "/Users/vignesh/Documents/GitHub/Generative_ai/Datasets/safety_chatbot/embeddings/safety_incident_embeddings.npy",
+        "metadata": {
+          "model": "all-MiniLM-L6-v2",
+          "shape": [
+            425,
+            384
+          ]
+        },
+        "registered_at": "/Users/vignesh/Documents/GitHub/Generative_ai/Safety_chatbot"
+      }
+    }
+  },
+  "neural_networks": {
+    "datasets": {
+      "Iris.csv": {
+        "path": "/Users/vignesh/Documents/GitHub/Generative_ai/Datasets/neural_networks/Iris.csv",
+        "metadata": {},
+        "registered_at": "/Users/vignesh/Documents/GitHub/Generative_ai"
+      }
+    },
+    "plots": {
+      "cnn_vs_transformer_comparison.png": {
+        "path": "/Users/vignesh/Documents/GitHub/Generative_ai/Datasets/neural_networks/plots/cnn_vs_transformer_comparison.png",
+        "metadata": {
+          "type": "comparison",
+          "models": [
+            "CNN",
+            "Transformer"
+          ]
+        },
+        "registered_at": "/Users/vignesh/Documents/GitHub/Generative_ai/Neural Networks/cnn_example"
+      },
+      "rnn_single_analysis.png": {
+        "path": "/Users/vignesh/Documents/GitHub/Generative_ai/Datasets/neural_networks/plots/rnn_single_analysis.png",
+        "metadata": {
+          "type": "single_analysis",
+          "model": "RNN"
+        },
+        "registered_at": "/Users/vignesh/Documents/GitHub/Generative_ai/Neural Networks/rnn_example"
+      }
+    }
+  },
+  "transformers": {
+    "results": {
+      "bert_attention_layer_-1_head_0.png": {
+        "path": "/Users/vignesh/Documents/GitHub/Generative_ai/Datasets/transformers/results/bert_attention_layer_-1_head_0.png",
+        "metadata": {
+          "model": "BERT",
+          "layer": -1,
+          "head": 0
+        },
+        "registered_at": "/Users/vignesh/Documents/GitHub/Generative_ai/Transformers/Bert"
+      },
+      "bert_embedding_analysis.png": {
+        "path": "/Users/vignesh/Documents/GitHub/Generative_ai/Datasets/transformers/results/bert_embedding_analysis.png",
+        "metadata": {
+          "model": "BERT",
+          "type": "embedding_analysis"
+        },
+        "registered_at": "/Users/vignesh/Documents/GitHub/Generative_ai/Transformers/Bert"
+      }
+    }
+  }
+}

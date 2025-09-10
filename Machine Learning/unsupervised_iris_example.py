@@ -114,6 +114,5 @@ def simple_unsupervised_iris():
     print("2. Scaling and PCA help visualize and improve clustering.")
     print("3. Use elbow and silhouette to choose/assess k.")
 
-
 if __name__ == "__main__":
     simple_unsupervised_iris()

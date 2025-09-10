@@ -1,0 +1,21 @@
+# Machine Learning Dependencies for Iris Classification Example
+# Install with: pip install -r requirements.txt
+
+# Core data science libraries
+pandas>=1.5.0
+numpy>=1.21.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Machine learning libraries
+scikit-learn>=1.1.0
+
+# Optional: For enhanced plotting
+plotly>=5.0.0
+
+# Optional: For Jupyter notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Optional: For data validation
+pydantic>=1.8.0
